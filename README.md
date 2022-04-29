@@ -1,2 +1,2 @@
-# http://sekimataki.github.io/Airy/
+# http://sekimataki.github.io
 Airy website for online order
