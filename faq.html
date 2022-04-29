@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Airy</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="FAQ.css">
+    <script src="jquery-3.1.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <p><a href="" style="text-decoration: none;">search</a></p>
+            <a class="logo" href="index.html">
+                <img src="images/Airy%20branding-black.png" alt="logo" width="130" height=auto>
+            </a>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="why_airy.html" style="text-decoration: none;">Why Airy</a></li>
+                    <li><a href="Installation.html" style="text-decoration: none;">Installation</a></li>
+                    <li><a href="fashion.html" style="text-decoration: none;">Fashion</a></li>
+                    <li><a href="faq.html" style="text-decoration: none;">FAQ</a></li>
+                    <li><a class="buy" href="buy_now.html" style="text-decoration: none;">Buy now</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="heroshot">
+            <h1 class="slogan_h1">Problem? No problem.</h1>
+            <h3 class="slogan_h2">Some questions we can answer right away.</h3>
+
+        </div>
+    </div>
+
+    <main>
+        <!-- Primary sidenav -->
+        <div class="sidenav">
+            <div class="drawer">
+                <h2><a href="#">&#8226 Order</a></h2>
+                <div class="inner">
+                    <p>What is included in the packaging?</p>
+                    <p>How to sync the monitor device with the APP?</p>
+                    <p>How can I change the battery for the monitor device?</p>
+                    <p>How to clean the brace and padding properly?</p>
+                    <p>What if L size does not fit me?</p>
+                    <p>When should I switch from one to another size?</p>
+                </div>
+            </div>
+
+            <div class="drawer">
+                <h2><a href="#">&#8226 Installation</a></h2>
+                <div class="inner">
+                    <p>How to install the brace properly?</p>
+                    <p>What if I break or lost a part/ screw?</p>
+                    <p>How to adjust the angle of each brace piece?</p>
+                    <p>What if the pre-drilled holes don't meet my demand?</p>
+                    <p>How to install the belt piece in place?</p>
+                    <p>What other resource I can ask for if I couldn’t set it up?</p>
+                </div>
+            </div>
+
+            <div class="drawer">
+                <h2><a href="#">&#8226 Trade in</a></h2>
+                <div class="inner">
+                    <p>Why would I trade in?</p>
+                    <p>How does trade in work?</p>
+                    <p>How much discount I can get with trade in?</p>
+                    <p>What can be traded in and what can’t not?</p>
+                    <p>Is there a degree of quality that goes into the requirements for trade in?</p>
+                    <p>What happens to the brace after it's been traded in?</p>
+                </div>
+            </div>
+
+            <div class="drawer">
+                <h2><a href="#">&#8226 Donate</a></h2>
+                <div class="inner">
+                    <p>Why would I donate?</p>
+                    <p>How does donate work?</p>
+                    <p>Is there any repayment for my donation?</p>
+                    <p>What can be donated and what can’t not?</p>
+                    <p>Is there a degree of quality that goes into the requirements for donation?</p>
+                    <p>What happens to the brace after it's been donated?</p>
+                </div>
+            </div>
+
+            <div class="drawer">
+                <h2><a href="#">&#8226 Contact</a></h2>
+                <div class="inner">
+                    <div class="contactform">
+                        <form onsubmit="sendEmail(); reset(); return false;">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <input type="email" id="email" placeholder="Email" required>
+                            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="drawer">
+                <h2><a href="#">Size guide</a></h2>
+                <div class="inner">
+                    <img src="images/sizeguide.jpg" alt="sizeguide">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <section class="footer">
+            <ul>
+                <li><a href="https://www.facebook.com"></a></li>
+                <li><a href="https://www.instagram.com"></a></li>
+                <li><a href="https://www.youtube.com"></a></li>
+                <li><a href="https://www.apple.com/app-store/"></a></li>
+                <li><a href="https://play.google.com/store"></a></li>
+            </ul>
+            <p>&#169 2022 Airy.inc. All rights reserved.</p>
+        </section>
+    </main>
+
+    <script>
+        $("div.drawer").click(function() {
+            $(this).find(".inner").slideToggle("fast");
+        });
+    </script>
+</body></html>

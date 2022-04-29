@@ -1,0 +1,655 @@
+/* OTHER STYLES 
+-----------------------------------*/
+* {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.parallax {
+    height: 500vh;
+    width: 100%;
+    background-color: aquamarine;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+
+}
+
+canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: aliceblue;
+    transform: translate(-50%, -50%);
+}
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home img {
+    width: 80%;
+    height: auto;
+
+}
+
+.buy {
+    font-weight: 600;
+    padding: 0.35em .75em 0.35em .75em;
+    border-radius: 2em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: black;
+}
+
+.more {
+    display: block;
+    font-weight: 600;
+    color: black;
+    margin-top: -3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+}
+
+main {
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 350%;
+}
+
+h2 {
+    width: 70%;
+    clear: both;
+    font-size: 150%;
+}
+
+.home h2 {
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    line-height: 1.25em;
+}
+
+.circle {
+    height: auto;
+    border-radius: 30em;
+}
+
+.hero-lightpass {
+    /*what shoudl I d to adjust the position?*/
+}
+
+/* HOME CLASSES
+-----------------------------------*/
+
+.heroshot {
+    padding-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.slogan_h1 {
+    position: absolute;
+    width: 20%;
+    color: black;
+    text-align: left;
+    font-size: 300%;
+    line-height: 1.25em;
+    top: 7em;
+    right: 2em;
+}
+
+.slogan_h1_white {
+    position: absolute;
+    width: 20%;
+    color: white;
+    text-align: left;
+    font-size: 250%;
+    line-height: 1.25em;
+    top: 8em;
+    right: 2.5em;
+}
+
+.slogan_h2 {
+    position: absolute;
+    width: 25%;
+    color: black;
+    text-align: right;
+    font-size: 200%;
+    line-height: 1.25em;
+    top: 12em;
+    left: 4em;
+}
+
+.slogan_h3 {
+    position: absolute;
+    width: 40%;
+    color: black;
+    text-align: right;
+    font-size: 300%;
+    line-height: 1.25em;
+    top: 6.5em;
+    left: 4em;
+}
+
+.scrolldown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 120%;
+    position: relative;
+    bottom: 5em;
+}
+
+.scrolldown img {
+    padding: .25em;
+}
+
+header {
+    background-color: #D0E8CA;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 4em;
+    /* Full width */
+    font-size: 150%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+header p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 70%;
+    padding: 0.5em .75em 0.5em .75em;
+    padding-right: 10%;
+    margin-right: 20%;
+    border-radius: 2em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: black;
+    visibility: hidden;
+    /* hide search bar */
+}
+
+header p a {
+    color: black;
+}
+
+/* TOP NAVIGATION
+-----------------------------------*/
+.nav ul {
+    font-size: 70%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    transition: color .35s ease;
+}
+
+li a:hover {
+    color: #8e8e8e;
+}
+
+/* SCOLIOSIS BACKGROUND
+-----------------------------------*/
+.bkg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.bkg img {
+    width: 100%;
+}
+
+.bkg h3 {
+    font-size: 120%;
+    padding: .75em;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 70%;
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+    line-height: 1.2em;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* WHY AIRY
+-----------------------------------*/
+.why {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    width: 80%;
+}
+
+.why img {
+    width: 100%;
+    height:
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.column2 h3 {
+    padding: 1em;
+}
+
+/* FASHION
+-----------------------------------*/
+/* CLINIC PROVEN
+-----------------------------------*/
+/* APP
+-----------------------------------*/
+.app {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-bottom: 12%;
+}
+
+.app img {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.app h2 {
+    padding: 0;
+    font-size: 200%;
+}
+
+.download {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.download a {
+    width: 80%;
+    height: auto;
+}
+
+/* APP
+-----------------------------------*/
+.size {
+    padding-top: 3em;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5em;
+}
+
+.size h3 {
+    padding: .5em;
+    font-size: 120%;
+    font-weight: 550;
+}
+
+.size p {
+    font-size: 100%;
+    font-weight: 500;
+    line-height: .5em;
+}
+
+.size sec {
+    text-align: center;
+}
+
+.size sec img {
+    margin-bottom: .5em;
+    width: 60%;
+    border-radius: 200em;
+    background-color: gainsboro;
+}
+
+.size a {
+    font-weight: 500;
+    color: black;
+}
+
+.size a.sizeguide {
+    display: block;
+    color: darkgray;
+    margin-top: -.5em;
+    margin-bottom: 1.25em;
+}
+
+.size .buy {
+    margin: 1%;
+    font-weight: 600;
+}
+
+.size a.more {
+    border: none;
+    margin: 1em 0em 5em 0em;
+}
+
+/* MAP+CONTACT
+-----------------------------------*/
+.contact {
+    width: 100%;
+    display: grid;
+    grid-template-columns: .125fr .25fr 1fr 1fr;
+    grid-gap: 2em;
+    background-color: #FBF3EB;
+    padding: 2em 0em 2em 0em;
+}
+
+.contact .address .cell {
+    margin-top: 1em;
+}
+
+.contact .address {
+    grid-column: 2/3;
+}
+
+.contact.map {
+    grid-column: 3/4;
+}
+
+.contact .contactform {
+    grid-column: 4/5;
+}
+
+.contact .address h3 {
+    font-size: 150%;
+    font-weight: 500;
+    padding-bottom: .5em;
+}
+
+.contact .address p {
+    font-size: 70%;
+    margin-bottom: .35em;
+}
+
+.contactform {
+    width: 100%;
+    max-width: 600px;
+}
+
+.contactform form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactform h3 {
+    color: black;
+    font-size: 150%;
+    font-weight: 500;
+    padding-bottom: .5em;
+}
+
+.contactform input,
+.contactform textarea {
+    border: 0;
+    margin: 1% 0;
+    padding: 2%;
+    outline: none;
+    background-color: white;
+    border-radius: .5em;
+    font-size: 70%;
+    width: 80%
+}
+
+.contactform button {
+    padding: 2%;
+    background-color: #D0E8CA;
+    color: black;
+    font-size: 80%;
+    border: 0;
+    cursor: pointer;
+    width: 40%;
+    margin: 2% auto 0;
+    border-radius: 5em;
+}
+
+/* social 
+-----------------------------------*/
+.footer {
+    padding: 1.25em 0em 1.25em 0em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #D0E8CA;
+}
+
+.footer ul li {
+    display: inline-flex;
+    margin-left: 1em;
+}
+
+.footer ul li a {
+    height: 2em;
+}
+
+a[href^="https://www.facebook.com"] {
+    background-image: url(images/iconmonstr-facebook-4-240.png);
+    background-size: 1.75em;
+    background-repeat: no-repeat;
+    padding-right: 2em;
+}
+
+a[href^="https://www.instagram.com"] {
+    background-image: url(images/iconmonstr-instagram-11-240.png);
+    background-size: 1.75em;
+    background-repeat: no-repeat;
+    padding-right: 2em;
+}
+
+a[href^="https://www.youtube.com"] {
+    background-image: url(images/iconmonstr-youtube-6-240.png);
+    background-size: 2em;
+    background-repeat: no-repeat;
+    padding-right: 2.25em;
+}
+
+a[href^="https://www.apple.com/app-store/"] {
+    background-image: url(images/App%20Store.png);
+    background-size: 6em;
+    background-repeat: no-repeat;
+    margin-left: 3em;
+    padding-right: 6em;
+}
+
+a[href^="https://play.google.com/store"] {
+    background-image: url(images/Google%20play.png);
+    background-size: 6em;
+    background-repeat: no-repeat;
+    padding-right: 6em;
+}
+
+.footer p {
+    font-size: 70%;
+    position: absolute;
+    right: 2em;
+    padding-top: 1.1em;
+}
+
+/* responsive tablet screen
+-----------------------------------*/
+@media(max-width:1024px) {
+    .wrapper .logo {
+        position: absolute;
+        left: 2em;
+    }
+
+    .heroshot {
+        padding-top: 11em;
+        width: 90%;
+    }
+
+    .nav {
+        margin-right: 2em;
+    }
+
+    .nav ul {
+        font-size: 80%;
+    }
+
+    .nav a {
+        text-align: center;
+        padding: 1em .75em;
+    }
+
+    .nav .buy {
+        border-width: .15em;
+        padding: .75em;
+        margin: 0em;
+    }
+
+    .slogan_h2 {
+        position: absolute;
+        width: 25%;
+        color: black;
+        text-align: right;
+        font-size: 135%;
+        line-height: 1.25em;
+        top: 17em;
+        left: 2em;
+    }
+
+    .slogan_h1 {
+        position: absolute;
+        width: 20%;
+        color: black;
+        text-align: left;
+        font-size: 220%;
+        line-height: 1.25em;
+        top: 9.5em;
+        right: 2em;
+    }
+
+    .scrolldown {
+        visibility: hidden;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .bkg {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
+    .bkg img {
+        width: 100%;
+    }
+
+    .column1 h3 {
+        font-size: 80%;
+    }
+
+    h3 {
+        font-size: 80%;
+    }
+
+    figcaption {
+        font-size: 60%;
+        line-height: 1.2em;
+        color: dimgray;
+    }
+
+    .download h2 {
+        font-size: 150%;
+    }
+
+    .download a {
+        width: 8em;
+    }
+
+    .size .buy {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-left: 19%;
+    }
+
+    .size .more.buy {
+        margin-left: 22%;
+        margin-top: 0em;
+    }
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer {
+        height: 1.5em;
+    }
+
+    .footer p {
+        position: relative;
+    }
+
+    .footer ul li a {
+        height: 2em;
+    }
+
+    a[href^="https://www.facebook.com"] {
+        background-size: 2em;
+    }
+
+    a[href^="https://www.instagram.com"] {
+        background-size: 2em;
+    }
+
+    a[href^="https://www.youtube.com"] {
+        background-size: 2em;
+    }
+
+    a[href^="https://www.apple.com/app-store/"] {
+        background-size: 6em;
+    }
+
+    a[href^="https://play.google.com/store"] {
+        background-size: 6em;
+    }
+}
+
+/* responsive phone screen
+-----------------------------------*/
+@media(max-width:400px) {}
